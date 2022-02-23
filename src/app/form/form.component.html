@@ -1,5 +1,5 @@
 <form [formGroup]="model">
-  <input type="text" formControlName="a">
+  <input type="text" formControlName="a" [value]="model.value.a">
   <input type="text" formControlName="b">
   <input type="text" formControlName="c">
   <app-keyboard [formControl]="currentControl"></app-keyboard>
